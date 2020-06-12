@@ -1,0 +1,103 @@
+body {
+background-color: RGB(216, 234, 210);
+padding: 1in;
+}
+h1 {
+   font-family: Arial, Helvetica, sans-serif;
+}
+.Title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px; 
+color: RGB(119, 63, 4);
+}
+.Subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px; 
+color: RGB(127, 96, 1);
+}
+.Author {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    color: RGB(254, 2, 1);
+}
+.Part {
+    font-weight: normal;
+    text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 52px;
+}
+.PartSubtitle {
+    font-weight: normal;
+    text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: gray;
+font-size: 20px;
+}
+.reflection {
+    text-indent: 30px;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reflectionTitle {
+    font-weight: normal;
+    font-size: 28px;
+}
+.share {
+    width: 45%;
+    background-color: rgb(252, 253, 167);
+    padding: 20px;
+    float: right;
+    border: 5px double red;
+    font-size: 20px;
+}
+footer {
+    background-color: grey;
+    padding: 20px;
+    width: 45%;
+    float: left;
+}
+
+
+
+/* Borders or Dividers: */
+
+/* Dashed border */
+hr.dashed {
+    border-top: 3px dashed #bbb;
+  }
+  
+  /* Dotted border */
+  hr.dotted {
+    border-top: 3px dotted #bbb;
+  }
+  
+  /* Solid border */
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
+  
+  /* Rounded border */
+  hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
+
+  /* ScrollBar Style! */
+  :root {
+    --shadow: #43a047;
+    --scrollbarBG: #eee;
+    --thumbBG: #66bb6a;
+  }
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px black;
+  }
