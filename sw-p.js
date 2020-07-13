@@ -18,7 +18,7 @@
  */
 
 const version = "0.1.10";
-const cacheName = 'MilkingRelections-v1.10';
+const cacheName = 'MilkingRelectionsP-v1.10';
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
