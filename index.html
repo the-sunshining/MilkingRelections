@@ -1,8 +1,10 @@
 <DOCTYPE html>
+    <html>
     <head>
         <title>Milking Reflections</title>
         <link rel="stylesheet" type="text/css" href="MilkingStyle.css">
         <link rel="shortcut icon" type="image/x-icon" src="https://sunbible.000webhostapp.com/MilkingReflections/thesunlogo.png">
+        <link rel="manifest" href="manifest.json">
     </head>
     <body>
         <h1 class="Title">Milking Reflections</h1>
@@ -390,4 +392,16 @@ I don't know who you are, or how much time you have in a day. But this is someth
          <a href="http://www.thesunshining.weebly.com">www.thesunshining.weebly.com</a>            
         </p>
     </footer>
+
+    <script>
+        if('serviceWorker' in navigator) {
+         navigator.serviceWorker
+                  .register('sw.js', { scope: '/MilkingRelections/' })
+                  .then(function() { console.log("Service Worker Registered"); });
+       }
+          </script>
+
+
+
     </body>
+</html>
