@@ -24,11 +24,28 @@ self.addEventListener('install', e => {
     caches.open(cacheName).then(cache => {
       return cache.addAll([
         '/MilkingRelections/',
-        '/MilkingRelections/index.html',
-        '/MilkingRelections/MilkingStyle.css',
-        '/MilkingRelections/manifest.json',
         '/MilkingRelections/MilkingReflectionsLogo.png',
-        '/MilkingRelections/sw.js'
+        'https://i.imgur.com/8uxYM4O.gif',
+        'https://i.imgur.com/lNbi0gO.gif',
+        'https://i.imgur.com/jDLYAHf.gif',
+        'https://i.imgur.com/G37A4lx.gif',
+        'https://i.imgur.com/P86zDpn.gif',
+        'https://i.imgur.com/kmSPbxX.gif',
+        'https://i.imgur.com/ae5vHtv.gif',
+        'https://i.imgur.com/hHHsttd.gif',
+        'https://i.imgur.com/MUweHXu.gif',
+        'https://i.imgur.com/4mrjY7X.gif',
+        'https://i.imgur.com/GczXFv8.gif',
+        'https://i.imgur.com/sHYQEho.gif',
+        'https://i.imgur.com/avHnkE0.gif',
+        'https://i.imgur.com/GOTSy8M.gif',
+        'https://i.imgur.com/NgbWnhs.gif',
+        'https://i.imgur.com/93WJffn.gif',
+        'https://i.imgur.com/7kCwIgO.gif',
+        'https://i.imgur.com/9qdDDwa.gif',
+        'https://i.imgur.com/CiirV2F.gif',
+        'https://i.imgur.com/Q80kWFB.gif',
+        'https://i.imgur.com/rjo1Ifq.gif'
 ])
           .then(() => self.skipWaiting());
     })

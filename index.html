@@ -400,7 +400,13 @@ I don't know who you are, or how much time you have in a day. But this is someth
                   .then(function() { console.log("Service Worker Registered"); });
        }
           </script>
-
+<script>
+    if('serviceWorker' in navigator) {
+     navigator.serviceWorker
+              .register('sw-p.js', { scope: '/MilkingRelections/' })
+              .then(function() { console.log("Service Worker Registered"); });
+   }
+      </script>
 
 
     </body>
