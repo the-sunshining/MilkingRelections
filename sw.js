@@ -17,7 +17,7 @@
  *
  */
 
-const version = "0.1.10";
+const version = "0.1.20";
 const cacheName = 'MilkingRelections-v1.10';
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -26,9 +26,8 @@ self.addEventListener('install', e => {
         '/MilkingRelections/',
         '/MilkingRelections/index.html',
         '/MilkingRelections/MilkingStyle.css',
-        '/MilkingRelections/manifest.json',
         '/MilkingRelections/MilkingReflectionsLogo.png',
-        '/MilkingRelections/sw.js'
+        '/MilkingRelections/Milk.png'
 ])
           .then(() => self.skipWaiting());
     })
