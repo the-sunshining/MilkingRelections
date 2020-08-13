@@ -65,15 +65,28 @@ font-size: 20px;
     font-size: 20px;
     border-radius: 25px;
 }
+
+
+
+
+
 .MilkVerse {
   width: 10%;
   float: left;
   margin: 10px;
 }
 .MilkVerse:hover {
+  animation-name: MilkVerse;
+  animation-duration: 3s;
   width: 50%;
 }
-.MilkingChallenge {
+@keyframes MilkVerse {
+  from {width: 10%;}
+  to {width: 50%;}
+}
+
+
+footer {
   text-indent: 30px;
   text-align: center;
   background-color: white;
@@ -83,12 +96,6 @@ font-size: 20px;
   margin: 10px;
   border-radius: 25px;
   border: 5px dotted gray;
-}
-footer {
-    background-color: grey;
-    padding: 20px;
-    width: 45%;
-    float: left;
 }
 
 
