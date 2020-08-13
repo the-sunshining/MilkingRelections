@@ -37,7 +37,7 @@ font-size: 20px;
 .Introduction {
   text-indent: 30px;
   background-color: white;
-  padding: 10px;
+  padding: 20px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px;
@@ -65,9 +65,16 @@ font-size: 20px;
     font-size: 20px;
     border-radius: 25px;
 }
+/*
+.Thanks_Hid_Show {
 
+}
+.Thanks_Hid {
 
+}
 
+@keyframes 
+*/
 
 
 .MilkVerse {
