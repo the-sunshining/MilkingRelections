@@ -83,6 +83,16 @@ font-size: 20px;
   to {width: 50%;}
 }
 
+button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: greenyellow;
+}
+button:hover {
+  background-color: green;
+}
+
 
 footer {
   text-indent: 30px;
